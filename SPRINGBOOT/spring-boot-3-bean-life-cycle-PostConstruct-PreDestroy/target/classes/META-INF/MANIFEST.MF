@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 17
+Implementation-Title: spring-boot-3-bean-life-cycle-PostConstruct-PreDes
+ troy
+Implementation-Version: 1.0
+Created-By: Maven Integration for Eclipse
+

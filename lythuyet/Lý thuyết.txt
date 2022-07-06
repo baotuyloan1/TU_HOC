@@ -1,0 +1,62 @@
+jsp có các thư viện có thể sử dụng riêng cho jsp vd như jstl(xử lý những cái logic mà bảng thân html hay boostrap k làm được)
+
+
+jar - thư viện
+pom - 
+war - hỗ trợ deloy web
+
+
+listener trong web.xml để nghe cái request cái url
+
+tomcat nhận file .war và deloy nó lên
+
+ <session-config>
+        <tracking-mode>COOKIE</tracking-mode>
+    </session-config> 
+để xóa cookie session trong đường link
+
+expression language
+
+
+trong file html khi viết style css dùng dấu . khi class, # thi id
+
+3tier architecture
+
+sitemesh decorator:
+filter URL
+-admin -> apply dg admin
+- apply dg web
+- api -> apply khong dg
+các bước dùng sitemesh
+b1: tạo 1 file decorator.xml
+b2: tạo 1 filter trong web.xml
+
+private,public protected : access modifier
+
+Dependency Inversion Principle tìm hiểu ?
+spring data jpa, hibernate, JPA-ORM
+
+https://javarevisited.blogspot.com/2012/08/top-10-jdbc-best-practices-for-java.html
+1. JDBC Best Practice #1: Use PreparedStatement
+
+Khi query trong jdbc nó trả về object (result set)
+code xong phải close hết
+
+Java Servlet Weld
+cấu hình beans.xml
+
+java generic <type>
+
+JDBC cấp 1 transaction
+open transation 
+thêm, sửa, xóa
+close transaction
+Statement : khoogn hỗ trợ truyền tham số vô câu sql
+còn PreparedStatement thì có hỗ trợ tham số truyền vào
+
+restful api best practice
+https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
+
+
+http method
+GET, POST, DELETE, PUT
